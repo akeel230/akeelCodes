@@ -8,8 +8,8 @@
 
 :root {
   --color-primary: #000000;
-  --color-secondary: #27a4e2;
-  --color-white: #FFFFFF;
+  --color-secondary: #e2cc27;
+  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -24,7 +24,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #00ff00;
+  --color-secondary: #ff2f00;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -1067,7 +1067,7 @@ section {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgba(30, 210, 255, 0.774);
+  background-color: var(--color-secondary);
   color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);

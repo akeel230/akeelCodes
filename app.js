@@ -43,7 +43,7 @@ function PageTransitions(){
 }
 //typing animation
 
-const texts = ['Developer' , 'Blogger' , 'Writer' , 'Freelancer'];
+const texts = ['Software Engineer' , 'HR Manager' , 'Writer' , 'Marketing Officer', 'Blogger'];
 let count = 0;
 let index = 0;
 let currentText = '';
@@ -61,7 +61,7 @@ let letter = '';
    count++;
    index = 0;
  }
- setTimeout(type,400)
+ setTimeout(type,300)
 }());
 
 PageTransitions();
