@@ -782,5 +782,33 @@ section{
       width: 300px;
       height: 210px;
   }
-
+div.right-contact {
+    flex: 3;
+    margin-left: 3rem;
+    input,textarea{
+        margin: 1.5rem 0;
+        border-radius: 30px;
+            font-weight: inherit;
+            font-size: inherit;
+            font-family: inherit;
+            padding: .8rem 1.1rem;
+            outline: none;
+            border: none;
+            background-color: var(--color-grey-5);
+            width: 100%;
+            color: var(--color-white);
+            resize: none;
+    }.submit-btn{
+        display: flex;
+        justify-content: flex-start;
+        padding: 2%;
+        border: 3px solid #27a4e2;
+        border-radius: 30px;
+        color: var(--color-white);
+        background-color: var(--color-grey-5);
+    } 
+}      
+ .contact-me{
+     display: inline-block;
+ }
 @import './media';

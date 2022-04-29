@@ -1072,6 +1072,46 @@ section {
   height: 210px;
 }
 
+div.right-contact {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin-left: 3rem;
+}
+
+div.right-contact input, div.right-contact textarea {
+  margin: 1.5rem 0;
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: .8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-5);
+  width: 100%;
+  color: var(--color-white);
+  resize: none;
+}
+
+div.right-contact .submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 2%;
+  border: 3px solid #27a4e2;
+  border-radius: 30px;
+  color: var(--color-white);
+  background-color: var(--color-grey-5);
+}
+
+.contact-me {
+  display: inline-block;
+}
+
 .about-container .left-about p {
   padding-left: 0;
 }
