@@ -43,7 +43,7 @@ function PageTransitions(){
 }
 //typing animation
 
-const texts = ['Software Engineer' , 'HR Manager' , 'Writer' , 'Marketing Officer', 'Blogger'];
+const texts = ['Software Engineer' , 'IT Student' , 'Writer' , 'Volunteer worker'];
 let count = 0;
 let index = 0;
 let currentText = '';
